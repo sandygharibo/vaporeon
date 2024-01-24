@@ -11,6 +11,11 @@
     100% { opacity: 1; }
   }
 
+.headline {
+    margin-top: 10%;
+    text-align: center;
+}
+
 .vap-center{
     position: fixed;
     top: 50%;
@@ -22,9 +27,12 @@
     margin-left: -75px;
 }
 
-.text {
-    font-size: large; 
+.font {
     font-family: 'Courier New', Courier, monospace;
+}
+
+.text {
+    font-size: large;
     text-align: center;
     display: block; 
     margin-left: -130px;
