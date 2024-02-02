@@ -1,3 +1,24 @@
+/* main page */
+.background-index{
+    background-color: #FFF8ED;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+}
+
+#navbar a {
+    padding-right: 20px;
+}
+
+#navbar img {
+    width: 300px;
+}
+
+/* vaporeon page */
 .background {
     background-color: #e2f1f7;
 }
@@ -16,7 +37,7 @@
     text-align: center;
 }
 
-.vap-center{
+.img-center{
     position: fixed;
     top: 50%;
     left: 50%;
@@ -25,6 +46,10 @@
 
     margin-top: -75px;
     margin-left: -75px;
+}
+
+.wrapper {
+    display: inline-block;
 }
 
 .font {
@@ -38,10 +63,8 @@
     margin-left: -130px;
 }
 
-.wrapper {
-    display: inline-block;
-}
 
+/* flakes in vaporeon page */
 @-webkit-keyframes snowflakes-fall {
     0% {
         top: -10%
@@ -172,4 +195,68 @@
     left: 65%;
     -webkit-animation-delay: 4s, 2.5s;
     animation-delay: 4s, 2.5s
+}
+
+
+/* date&yes page */
+
+.background-date {
+    /*background-color: #ffe9ec;*/
+    background-color: #FFF8ED;
+}
+
+.img-center-date {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    /* bring your own prefixes */
+    /*transform: translate(-50%, -50%);*/
+
+    margin-top: -75px;
+    margin-left: -120px;
+}
+
+.button-custom {
+    background-color: #ffb6c1;
+    color: white;
+    border-radius: 24px;
+    border-style: dashed;
+    width: 80px;
+    height: 40px;
+
+    transition: background-color 0.5s ease;
+}
+
+.button-custom:hover {
+    background-color: #fc8c9c;
+    font-weight: bold;
+}
+
+.font-date {
+    /*color: #cc313d;*/
+    color: #541E1E;
+    font-family: 'Protest Riot';
+    font-style: normal;
+}
+
+/* Position the "No" button absolutely within body */
+#noButton {
+    position: absolute;
+    margin-left: 150px;
+    transition: 0.5s;
+    /* Smooth movement */
+}
+
+.center-img {
+    text-align: center;
+}
+
+.buttons-center {
+    display: flex; 
+    justify-content: space-around; 
+    margin-top: 40px;
+}
+
+.yes-button {
+    margin-right: 160px;
 }
