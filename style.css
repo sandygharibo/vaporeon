@@ -129,6 +129,31 @@
     margin-left: -120px;
 }
 
+.center-img-date {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Center the images vertically */
+}
+
+.flower-img-size {
+    width: 100%; /* Take 100% width of the container by default */
+    max-width: 230px; /* Set a maximum width to maintain the aspect ratio */
+}
+
+/* Media Query for screens with a width between 401px and 1650px */
+@media (min-width: 401px) and (max-width: 1650px) {
+    .flower-img-size {
+        max-width: 200px;
+    }
+}
+
+/* Media Query for screens with a width between 0px and 400px */
+@media (max-width: 400px) {
+    .flower-img-size {
+        max-width: 120px;
+    }
+}
+
 .button-custom {
     background-color: #ffb6c1;
     color: white;
